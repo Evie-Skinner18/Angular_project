@@ -1,8 +1,14 @@
 
 /* angular picks up styles that come from the root component's css file.
 Don't know how to make it apply e.g cheese.component css yet  */
-.cheese-title {
-  color: red;
+.app-title {
+  color: purple;
 
 
+}
+
+.app-body {
+  color: indigo;
+  border: 3px double dashed dodgerblue;
+  padding: 25%;
 }
