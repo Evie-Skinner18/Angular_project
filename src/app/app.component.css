@@ -9,6 +9,9 @@ Don't know how to make it apply e.g cheese.component css yet  */
 
 .app-body {
   color: indigo;
-  border: 3px double dashed dodgerblue;
-  padding: 25%;
+  padding: 5%;
+}
+
+.app-background {
+  background-image: "../../assets/images/waves_unsplash.jpg";
 }
