@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-.background {
-  background-color: rgb(238, 182, 214);
+#background-img {
+  background: url("assets/images/waves_unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
 }
 
 .navbar-margin {
