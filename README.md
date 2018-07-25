@@ -1,5 +1,5 @@
 # Next steps:
-## How do I make different components show up on the page by clicking links in the nav bar? Also confused about interpolating a variable from the typescript in the beer.component.ts file to the beer.component.html file as Udemy course doing it inline inside the typescript file (Angular won't let me do this)
+## How do I make different components show up on the page by clicking links in the nav bar? 
 
 
 # HelloWorld
