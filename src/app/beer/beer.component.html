@@ -20,3 +20,10 @@
 <h2>
   {{ greetUser() }}
 </h2>
+
+<!-- Interpolate the siteUrl variable stored in TS file -->
+<h2>
+  The URL of this site is {{ siteUrl }}
+</h2>
+
+<input [disabled]="isDisabled" [id]="myId" class="form-control" type="text" placeholder="Enter beer here" value = "BEER">

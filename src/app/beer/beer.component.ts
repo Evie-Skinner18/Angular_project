@@ -14,6 +14,16 @@ export class BeerComponent implements OnInit {
   // name is a public property of my TS object
   public name = "Evie";
 
+  // making a property of some data in the window
+  public siteUrl = window.location.href;
+
+  // property for a css ID. This is property binding
+  public myId = "beer-id";
+
+  //property for a boolean value to disable input boxes
+  public isDisabled = false;
+
+
   // methods inside the object
   constructor() { }
 
