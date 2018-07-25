@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: '.app-beer',
+  selector: 'app-beer',
   // if you want to use a template file instead of inline template './beer.component.html'
   // `<h2> Welcome to the beer club {{ name }} </h2>
   // <h2> {{ 2 + 2 }} </h2> `,
@@ -19,6 +19,9 @@ export class BeerComponent implements OnInit {
 
   // property for a css ID. This is property binding
   public myId = "beer-id";
+
+  // property for a CSS class
+  public myClass = "beer-class"
 
   //property for a boolean value to disable input boxes
   public isDisabled = false;
