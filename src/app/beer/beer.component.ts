@@ -21,10 +21,13 @@ export class BeerComponent implements OnInit {
   public myId = "beer-id";
 
   // property for a CSS class
-  public myClass = "beer-class"
+  public myClass = "beer-class";
 
   //property for a boolean value to disable input boxes
   public isDisabled = false;
+
+  // property for a boolean value to activate a CSS class
+  public hasError = true;
 
 
   // methods inside the object
