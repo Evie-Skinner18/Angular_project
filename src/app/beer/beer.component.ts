@@ -35,6 +35,7 @@ export class BeerComponent implements OnInit {
     "btn-info" : this.isSpecial
   }
   public highlightColour = 'orange';
+  public beer = " ";
 
 
   // methods inside the object
@@ -47,5 +48,11 @@ export class BeerComponent implements OnInit {
   greetUser()
   {
     return "Greetings to you " + this.name;
+  }
+
+  // click event
+  beerClick()
+  {
+    this.beer = "Tom Long!";
   }
 }

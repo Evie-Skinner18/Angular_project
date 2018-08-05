@@ -36,8 +36,13 @@
   <hr class="my-4">
   <button type="button" [class.btn-danger]="!hasError" class="btn">Danger of running out of beer!</button>
   <button type="button" [ngClass]="messageClasses" class="btn">
-    Click this danger/success/info button for beer
+    A danger/success/info button
   </button>
+  <hr>
+  <button type="button" (click)="beerClick()" [ngClass]="messageClasses" class="btn">
+    Click for beer
+  </button>
+  <p>{{beer}}</p>
 
   <hr>
 
