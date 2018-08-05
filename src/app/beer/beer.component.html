@@ -32,7 +32,12 @@
 
   <input [disabled]="isDisabled" [id]="myId" class="form-control" type="text" placeholder="Enter beer here" value = "BEER">
   <hr class="my-4">
-  <button type="button" [class.btn-danger]="hasError" class="btn">Danger of running out of beer!</button>
-  <button type="button" [ngClass]="messageClasses" class="btn">  
+  <button type="button" [class.btn-danger]="!hasError" class="btn">Danger of running out of beer!</button>
+  <button type="button" [ngClass]="messageClasses" class="btn">
     Click this danger/success/info button for beer
   </button>
+
+  <hr>
+
+  <h2 [style.color]="isSpecial? 'blue' : 'orange'">Style Binding</h2>
+  <h2 [style.color]="highlightColour">More Style Binding</h2>

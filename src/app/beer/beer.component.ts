@@ -29,11 +29,12 @@ export class BeerComponent implements OnInit {
   // property for a boolean value to activate a CSS class
   public hasError = false;
   public isSpecial = true;
-  // public messageClasses {
-  //   "btn-danger" : this.hasError,
-  //   "btn-success" : !this.hasError,
-  //   "btn-info" : this.isSpecial
-  // }
+  public messageClasses = {
+    "btn-danger" : this.hasError,
+    "btn-success" : !this.hasError,
+    "btn-info" : this.isSpecial
+  }
+  public highlightColour = 'orange';
 
 
   // methods inside the object
