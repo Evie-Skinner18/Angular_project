@@ -25,6 +25,10 @@ import { HomeComponent } from './home/home.component';
         component: AppComponent
       },
       {
+        path: 'app-home',
+        component: HomeComponent
+      },
+      {
       path: 'app-cheese',
       component : CheeseComponent
     },{

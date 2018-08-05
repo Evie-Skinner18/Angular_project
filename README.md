@@ -1,5 +1,4 @@
-# Next steps:
-## How do I make different components show up on the page by clicking links in the nav bar? 
+# Next steps
 
 
 # HelloWorld
