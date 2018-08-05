@@ -17,7 +17,10 @@ export class CheeseComponent implements OnInit {
 
   onClick(event) {
     this.greeting = "Roquefort!";
+  }
 
+  logMessage(userInput) {
+    alert(userInput);
   }
 
 }
