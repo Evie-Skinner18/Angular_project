@@ -27,7 +27,13 @@ export class BeerComponent implements OnInit {
   public isDisabled = false;
 
   // property for a boolean value to activate a CSS class
-  public hasError = true;
+  public hasError = false;
+  public isSpecial = true;
+  // public messageClasses {
+  //   "btn-danger" : this.hasError,
+  //   "btn-success" : !this.hasError,
+  //   "btn-info" : this.isSpecial
+  // }
 
 
   // methods inside the object
