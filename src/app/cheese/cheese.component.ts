@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CheeseComponent implements OnInit {
 
+  // properties
+  public greeting = " ";
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onClick(event) {
+    this.greeting = "Roquefort!";
+  }
+
+  logMessage(userInput) {
+    alert(userInput);
   }
 
 }

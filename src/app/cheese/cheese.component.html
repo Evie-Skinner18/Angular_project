@@ -1,3 +1,28 @@
-<p>
-  cheese works!
-</p>
+
+<div class="container">
+
+  <p class="lead">
+    <a (click)="onClick()" class="btn btn-primary btn-lg" role="button">Click for cheese</a>
+  </p>
+
+  <p class="cheese-parag">
+    {{greeting}}
+  </p>
+
+
+  <p class="lead">
+    <a (click)="greeting = 'I love cheese' "class=" btn btn-primary btn-lg" role="button">Click for cheese greeting</a>
+  </p>
+
+  <div class="form-group">
+    <label class="cheese-parag col-form-label col-form-label-lg">
+      Enter a cheese here:
+    </label>
+    <input #myInput type="text" class="form-control form-control-lg" id="inputLarge">
+  </div>
+  <button type="button" (click)="logMessage(myInput.userInput)" class="btn btn-warning">
+    Log this cheese
+  </button>
+
+
+</div> <!-- end of cheese container-->
