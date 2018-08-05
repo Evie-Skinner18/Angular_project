@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CheeseComponent } from './cheese/cheese.component';
 import { BeerComponent } from './beer/beer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     CheeseComponent,
     BeerComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
